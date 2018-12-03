@@ -83,7 +83,7 @@ def read_vocab(vocab_dir):
 
 def read_category():
     """读取分类目录，固定"""
-    categories = ['1_公司_财务', '2_公司_关联', '3_公司_人物_关联', '4_公司_行情', '5_公司_投资指标', '6_公司_投资品种', '7_公司_财报', '8_公司_研报', '9_事件_公司股价', '10_宏观指标_数据', '11_宏观指标_相关性', '12_宏观指标_预测', '13_宏观指标_监控', '14_公司_信息']
+    categories = [] # 分类名
 
     categories = [native_content(x) for x in categories]
 
